@@ -1,0 +1,65 @@
+
+.weatherResults{
+	text-align:center;
+}
+form{
+	padding:50px;
+}
+label {
+	color:white;
+}
+body{
+	background-color: black;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+h2{
+	color: white;
+	text-align:center;
+}
+h3{
+	color: white;
+	text-align:center;
+}
+p{
+	font-family: verdana;
+	font-size:20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a.active {
+    background-color: #4CAF50;
+}
+a:link{
+	text-decoration: underline;
+}
+
+nav li a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: white;
+}
+
+.footer{
+	padding: 20px;
+	text-align:center;
+}
+.footer a{
+	color:white;
+}
+.stackResults a{
+	color:white;
+}
