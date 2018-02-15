@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weather Seacher</title>
+    <title>Jokes about Chuck Norris</title>
     <link rel="stylesheet" href="styles.css">
   </head>
  <meta charset="utf-8"/>
   <body>
-<nav>
- <ul>
-  <li><a class="active" href="index.html">Weather Finder</a></li>
-  <li><a href="stackOverflow.html">Stack Overflow</a></li>
-</ul> 
-<nav>
+
 <hr></hr>
-    <h1>Weather Finder: Just want to set this whole thing up</h1>
+    <h1>Who is Chuck Norris?</h1>
+    <h2>I am glade you asked...</h2>
+    <button>Click for a Chuck Norris Fact</button>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script text="type/javascript" src="script.js">
-    </script>
+<div></div>
 
-	<form>
-	  <label>Enter a U.S. city</label>
-	  <input id="weatherInput" type="text"></input><br/>
-	  <input id="weatherSubmit" type="submit" value="Submit"></input>
-	</form>
-<div class ="weatherResults" id="weatherResults"></div>
-
-  </body>
-<div class="footer"><a href="https://github.com/BYU-CS260-Winter-2018/lab-2-izyp0007">URL to GitHub</div>
+</body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.getJSON("https://api.chucknorris.io/jokes/random", function(result){
+            console.log(result);
+            
+                $("div").text(result.value);
+     
+        });
+    });
+});
+</script>

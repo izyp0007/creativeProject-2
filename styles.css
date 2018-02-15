@@ -1,58 +1,19 @@
-
-.weatherResults{
-	text-align:center;
-}
-form{
-	padding:50px;
-}
-label {
-	color:white;
-}
 body{
-	background-color: black;
+	background-color: #618685;
 }
 h1{
-	color: white;
+	font-size: 35px;
+	font-family: Georgia;
+	color: #d5f4e6;
 	text-align: center;
 }
 h2{
-	color: white;
+	font-size: 25px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #d5f4e6;
 	text-align:center;
+	padding: 30px;
 }
-h3{
-	color: white;
-	text-align:center;
-}
-p{
-	font-family: verdana;
-	font-size:20px;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li a.active {
-    background-color: #4CAF50;
-}
-a:link{
-	text-decoration: underline;
-}
-
-nav li a{
-    float: left;
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: white;
-}
-
 .footer{
 	padding: 20px;
 	text-align:center;
@@ -60,6 +21,16 @@ li a:hover {
 .footer a{
 	color:white;
 }
-.stackResults a{
-	color:white;
+button{
+	font-size: 15px;
+	margin: 0 auto;
+ 	display:block;
+	color:black;
+}
+div{
+	font-family:"Lucida Console";
+	font-size: 42px;
+	padding: 50px;
+	text-align:center;
+	color: #fefbd8;
 }
