@@ -14,6 +14,12 @@ h2{
 	text-align:center;
 	padding: 30px;
 }
+.container {
+    grid-template-areas: 
+        "main main"
+        "footer footer";
+    grid-gap: 50px;
+}
 .footer{
 	padding: 20px;
 	text-align:center;
@@ -33,4 +39,8 @@ div{
 	padding: 50px;
 	text-align:center;
 	color: #fefbd8;
+}
+.footer a{
+	font-size: 15px;
+	color:black;
 }
